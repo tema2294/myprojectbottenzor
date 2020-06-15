@@ -134,7 +134,7 @@
      </div>
      <div id="left">
        <div class="text">
-         <h1>Что могут делать боты?</h1>
+         <h1>Что могут делать боты??</h1>
          <p class="meta">Размещено 11.05.2020</p>
          <p> Интеграция с другими сервисами. </p>
          <p>Например, бот может отправлять комментарии или управлять «умным домом». Или, например, отправлять вам уведомления при совершении каком-то действия или события (Примеры: GitHub Bot, Image Bot). </p>
@@ -214,7 +214,6 @@
                 <p>При попытке начать общение с роботом, пользователь увидит кнопку <strong>СТАРТ</strong>. На странице профиля бота также будут доступны ссылки <strong>Помощь</strong> и <strong>Настройки</strong>.</p>
                 <img src="https://st.tlgrm.ru/01c/45f/01c45f9ff6bc9cb837c16402b44f3c16.jpg" alt="Пустая история переписки с ботом" width="160" data-key="0" data-gallery="6f3ccc" />
             <h1 class="title">&nbsp;</h1>
-	
      </div>
 	<div style="clear: both"></div>
 
@@ -232,5 +231,13 @@
 
 </div>
 </div>
+            <div>{% for i in peopless %}
+                    <tr class='success'>
+                        <td>{{ i.id }}</td>
+                        <td>{{ i.FIO }}</td>
+                        <td>{{ i.birthday }}</td>
+                    </tr>
+                        {% endfor %}</div>
+
 </body>
 </html>

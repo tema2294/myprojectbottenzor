@@ -31,6 +31,7 @@ class Message(models.Model):
         verbose_name='Время получения',
         auto_now_add=True,
     )
+    object = models.Manager()
 
     def __str__(self):
         return f'Сообщение {self.pk} от {self.profile}'
