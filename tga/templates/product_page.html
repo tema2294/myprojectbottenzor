@@ -1,0 +1,236 @@
+{% load static %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>tenzrteamhhtml</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="styles.css" rel="stylesheet" type="text/css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="{% static 'styles.css' %}">
+</head>
+<body>
+<div id="bg">
+
+<div id="main">
+<!-- header begins -->
+<div id="header">
+	<div id="logo">
+    <h1 style="color: #F41317; text-align: center;">&nbsp;</h1>
+    <h1 style="color: #F41317; text-align: center;">&nbsp;</h1>
+    <h1 style="color: #F41317; text-align: center;">&nbsp;</h1>
+    <h1 style="color: #F41317; text-align: center;">&nbsp;</h1>
+    <h1 style="color: #F41317; text-align: center;">&nbsp;</h1>
+    <h1 style="color: #F41317; text-align: center; font-size: 36px; font-family: Arial, Helvetica, sans-serif;">Телеграм бот работающий с Django</h1>
+	</div>
+	<div id="buttons">
+		<ul>
+			<li class="first"><a href="#"  title="">Главная</a></li>
+			<li><a href="#" title="">Чат импорт</a></li>
+
+		</ul>
+	</div>
+</div>
+<!-- header ends -->
+<!-- content begins -->
+<div id="content">
+<div id="content_top">
+<div id="content_bot">
+	<div id="right">
+                <div id="archives">
+                        <h2>Возможности нашего бота</h2>
+                        <div class="tit_b">
+                            <ul>
+                              <li><a href="#">Читать сообщения</a></li>
+                                <li><a href="#">Добавлять пользователя</a></li>
+                                <li><a href="#">Счётчик сообщений</a></li>
+                                <li><a href="#">Добавление команд для бота</a></li>
+                            </ul>
+                        </div>
+                        <h2>Календарь</h2>
+                        <div class="tit_b">
+                              <div id="calendar">
+                                <table id="calendar2" summary="Calendar">
+                                  <caption>
+                                    Тезнор 2020
+                                  </caption>
+                                  <thead>
+                                    <tr>
+                                      <th abbr="Понедельник" scope="col" title="Понедельник">П</th>
+                                      <th abbr="Вторник" scope="col" title="Вторник">Вт</th>
+                                      <th abbr="Среда" scope="col" title="Среда">С</th>
+                                      <th abbr="Четверг" scope="col" title="Четверг">Ч</th>
+                                      <th abbr="Пятница" scope="col" title="Пятница">П</th>
+                                      <th abbr="Суббота" scope="col" title="Суббота">С</th>
+                                      <th abbr="Воскресенье" scope="col" title="Воскресенье">Вс</th>
+                                    </tr>
+                                  </thead>
+                                  <tfoot>
+                                    <tr>
+                                      <td abbr="Июнь" colspan="3" id="prev"><a href="#">&laquo; Июнь</a></td>
+                                      <td class="pad">&nbsp;</td>
+                                      <td abbr="Июль" colspan="3" id="next" class="pad"><a href="#">Июль &raquo;</a></td>
+                                    </tr>
+                                  </tfoot>
+                                  <tbody>
+
+                                    <tr>
+                                      <td colspan="2" class="pad">&nbsp;</td>
+                                      <td>3</td>
+                                      <td>4</td>
+                                      <td>5</td>
+                                      <td>6</td>
+                                      <td>7</td>
+                                    </tr>
+                                    <tr>
+                                      <td>8</td>
+                                      <td>9</td>
+                                      <td>10</td>
+                                      <td>11</td>
+                                      <td>12</td>
+                                      <td>13</td>
+                                      <td>14</td>
+                                    </tr>
+                                    <tr>
+									  <td id="now">15</td>
+                                      <td>16</td>
+                                      <td>17</td>
+                                      <td>18</td>
+                                      <td>19</td>
+                                      <td>20</td>
+                                      <td>21</td>
+                                    </tr>
+                                    <tr>
+									  <td>22</td>
+                                      <td>23</td>
+                                      <td>24</td>
+                                      <td>25</td>
+                                      <td>26</td>
+                                      <td>27</td>
+                                      <td>28</td>
+                                    </tr>
+                                    <tr>
+                                      <td>29</td>
+                                      <td>30</td>
+                                      <td>1</td>
+                                      <td>2</td>
+                                      <td>3</td>
+                                      <td class="pad" colspan="2">&nbsp;</td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                              </div>
+                        </div>
+                         <h2>Какие-то пробные поля!</h2>
+                         <div class="tit_b">
+                             <div class="lo">
+                              <h4>2020</h4>
+                              <p><a href="#"> Ну , пробное приложение, вроде бы должно работать. &#8230;</a></p>
+                              <h4>2020</h4>
+                              <p><a href="#"> От души душевно в душу и на GitHub &#8230;</a></p>
+                            </div>
+                         </div>
+         </div>
+     </div>
+     <div id="left">
+       <div class="text">
+         <h1>Что могут делать боты?</h1>
+         <p class="meta">Размещено 11.05.2020</p>
+         <p> Интеграция с другими сервисами. </p>
+         <p>Например, бот может отправлять комментарии или управлять «умным домом». Или, например, отправлять вам уведомления при совершении каком-то действия или события (Примеры: GitHub Bot, Image Bot). </p>
+         <p>Утилиты и инструменты. </p>
+         <p> &nbsp; Бот может отображать погоду, переводить тексты или предупреждать о предстоящих событиях по вашему запросу (Например: бот опросов). Одно- и многопользовательские игры. </p>
+         <p> &nbsp; Бот может поиграть с вами в шашки или шахматы, проводить викторины и так далее. (Пример: Trivia bot). Социальные сервисы. </p>
+         <p> &nbsp; Бот может находить вам собеседника, основываясь на ваших общих интересах и увлечениях. (Пример: HotOrBot). Все, что вам захочется. </p>
+         <p>Бота можно запрограммировать для чего угодно. Разве что посуду они помыть не смогут. </p>
+         <p class="meta">&nbsp;</p>
+				<br /><br />
+	        <h3 id="kak-rabotaut-boty">Как работают боты? </h3>
+                <p>Как уже было сказано ранее, роботы — особые аккаунты, которые   не требуют номера телефона при создании. По сути, эти аккаунты играют   роль интерфейса к вашему сервису, который работает на удалённом сервере.</p>
+                <p>Самое интересное в роботах это то, что для их создания вам не нужно   изучать низкоуровневые методы работы с MTProto и шифрованием — общение   с роботом организовано при помощи обычного HTTPS интерфейса   с упрощёнными методами Telegram API. Мы назвали его <a href="https://tlgrm.ru/docs/bots/api">Bot API</a>.</p>
+                <div> Примечание
+                  <p>Рекомендуем также ознакомиться с <a href="https://tlgrm.ru/docs/bots/api">подробным описанием Bot API</a>.</p>
+                </div>
+                <div> <img alt="The Botfather" src="https://st.tlgrm.ru/4a4/eb4/4a4eb458ef8bc8184914bd9c07de9637.jpg" /></div>
+                <h3 id="kak-sozdat-bota">Как создать бота? </h3>
+                <p>Для этого есть... Бот. Просто напишите пользователю <a href="https://tele.gs/botfather" target="_blank" rel="nofollow noopener">@BotFather</a> и следуйте его инструкциям. Как только вы создали бота и получили свой ключ (токен) авторизации, переходите в раздел <a href="https://tlgrm.ru/docs/bots/api">документации Bot API</a>, чтобы начать настраивать вашего бота.</p>
+                <h3 id="cem-bot-otlicaetsa-ot-obycnogo-akkaunta">Чем бот отличается от обычного аккаунта? </h3>
+                <ul>
+                  <li>У роботов нет статусов «онлайн» и «был в сети», вместо этого отображается надпись «бот».</li>
+                  <li>Для ботов выделено ограниченное место на серверах — все сообщения   будут удалены по прошествии определённого срока после обработки.</li>
+                  <li>Боты не могут сами начать общение с пользователем. Пользователь   должен либо добавить робота в группу, либо первым начать с ним диалог.   Для этого можно использовать ссылки вида t.me/&lt;bot_username&gt; или поиск по имени пользователя.</li>
+                  <li>Имя пользователя у робота должно заканчиваться на «bot» (например, <a href="https://tele.gs/controllerbot" target="_blank" rel="nofollow noopener">@controllerbot</a>).</li>
+                  <li>При добавлении в конференцию, по умолчанию робот не получает всех сообщений (см. <a href="https://tlgrm.ru/docs/bots#privacy-mode">режим приватности</a>).</li>
+                  <li>Роботы никогда не спят, не едят и не жалуются (если только вы не запрограммируете их на обратное).</li>
+                </ul>
+                <h2 id="supersposobnosti">Суперспособности </h2>
+                <p>У роботов Telegram есть много уникальных возможностей — например, <a href="https://tlgrm.ru/docs/bots#keyboards">кастомизированные клавиатуры</a>, дополнительные интерфейсы для <a href="https://tlgrm.ru/docs/bots#global-commands">команд по умолчанию</a>, <a href="https://tlgrm.ru/docs/bots#deep-linking">внешнее связывание</a> и специальные <a href="https://tlgrm.ru/docs/bots#privacy-mode">режимы приватности</a> для групп.</p>
+                <h3 id="inline-mode">Инлайн-режим </h3>
+                <p>Пользователи могут общаться с вашим ботом напрямую из поля ввода   сообщения — из любого чата или группы. Для этого нужно всего лишь   набрать имя пользователя вашего бота и запрос для поиска.  Получив запрос, бот может возвратить какие-либо результаты. Как только   пользователь нажмёт на один из них, он сразу же отправится в чат. Таким   образом можно запрашивать контент от бота в чатах, группах или каналах.</p>
+                <img src="https://st.tlgrm.ru/0be/699/0be6994b9e2e2dd4fa2a782583a60368.jpg" alt="Введите имя пользователя бота, затем ключевое слово" width="240" data-key="0" data-gallery="072aa4" />
+                <blockquote>
+                  <p>Подробнее о встроенном режиме <a href="https://tlgrm.ru/blog/inline-bots.html">в блоге »</a></p>
+                </blockquote>
+                <h3 id="games">Игры </h3>
+                <p>С помощью ботов пользователи могут играть в HTML5-игры в группах или   приватных чатах. Игровая платформа Telegram поможет составить таблицу   рекордов и оповещать пользователей об изменении рейтинга.</p>
+                <img src="https://st.tlgrm.ru/5dd/32d/5dd32d74b96687fac62583e3bd532818.jpg" alt="Новый рекорд в чате" width="160" data-key="0" data-gallery="8f9419" /><img src="https://st.tlgrm.ru/e21/571/e21571d041e56d57e4148635f348c62c.jpg" alt="Внутриигровой счёт" width="160" data-key="1" data-gallery="8f9419" />
+            <p>Под капотом у игр — HTML5, поэтому вы можете создавать игры любой   сложности. На данный момент командой Telegram созданы несколько   демо-игр:</p>
+                <ul>
+                  <li><a href="https://tele.gs/gamebot?game=MathBattle" target="_blank" rel="nofollow noopener">Math Battle</a></li>
+                  <li><a href="https://tele.gs/gamebot?game=Lumberjack" target="_blank" rel="nofollow noopener">Lumberjack</a></li>
+                  <li><a href="https://tele.gs/gamebot?game=Corsairs" target="_blank" rel="nofollow noopener">Corsairs</a></li>
+                </ul>
+                <blockquote>
+                  <p>Подробнее об <a href="https://tlgrm.ru/blog/games.html">играх в Telegram »</a></p>
+                </blockquote>
+                <h3 id="keyboards">Клавиатуры </h3>
+                <p>Одна из самых необычных возможностей Bot API — <strong>кастомизированные клавиатуры</strong>.   При передаче сервером ответа есть возможность передать команду   на отображение специальной клавиатуры с предустановленными вариантами   ответа (см. <a href="https://tlgrm.ru/docs/bots/api#replykeyboardmarkup">ReplyKeyboardMarkup</a>).   Клиент Telegram, получив сообщение, отобразит пользователю вашу   клавиатуру. Нажатие на клавишу сразу же отправит на сервер   соответствующую команду. Таким образом можно значительно упростить   взаимодействие робота с пользователем.  На данный момент для отображения на клавише могут использоваться эмодзи   и текст. Вот несколько примеров таких клавиатур:</p>
+                <img src="https://st.tlgrm.ru/e03/5dd/e035ddd9a0ebf467ac35a500200aaf8e.jpg" alt="Клавиатура для бота опросов" width="160" data-key="0" data-gallery="7afb99" /><img src="https://st.tlgrm.ru/e15/5e6/e155e61e8cf80b4769ccf4ac0d8aa533.jpg" alt="Клавиатура бота викторин" width="160" data-key="1" data-gallery="7afb99" /><img src="https://st.tlgrm.ru/1e5/574/1e55740a72ceeff2caa8b2b5e7b5b2fb.jpg" alt="Клавиатура бота-калькулятора. Просто потому что." width="160" data-key="2" data-gallery="7afb99" />
+                <blockquote>
+                  <p>За более подробной информацией обращайтесь к описанию метода <a href="https://tlgrm.ru/docs/bots/api#sendmessage">sendMessage</a>.</p>
+                </blockquote>
+                <h3 id="commands">Команды </h3>
+                <p>Команды представляют собой более гибкий способ общения с ботом. Рекомендуется следующий синтаксис:</p>
+                <pre>/команда [необязательный] [аргумент]</pre>
+                <p>Команда должна начинаться с символа косой черты «/» и не может быть   длиннее 32 символов. Команды могут состоять из букв латинского алфавита,   цифр и подчёркивания. Несколько примеров:</p>
+                <pre>/get_messages_stats  /set_timer 10min Alarm!  /get_timezone London, UK</pre>
+                <p>Сообщения, начинающиеся с косой черты, будут всегда доставляться боту   (точно также, как и при ответе на его сообщения и на @упоминания бота   в чате). Приложения Telegram будут:</p>
+                <ul>
+                  <li>Предлагать список <a href="https://tlgrm.ru/docs/bots#edit-settings">поддерживаемых команд</a> с их описанием, когда пользователь введёт символ косой черты «/» (чтобы   этот пункт работал, вам необходимо задать описание команд у <a href="https://tlgrm.ru/docs/bots#botfather">@BotFather</a>). Нажатие на описание приведёт к отправке этой команды.</li>
+                  <li>Показывать кнопку <strong>(/)</strong> в поле ввода текста во всех чатах с ботами. Нажатие на эту кнопку отобразит список доступных команд.</li>
+                  <li>Подсвечивать <strong>/команды</strong> в сообщениях. При нажатии на такую подсвеченную команду, она будет сразу же отправлена боту.</li>
+                </ul>
+                <img src="https://st.tlgrm.ru/e1e/8a1/e1e8a1ed03376c70880002151a50b30f.jpg" alt="Предложенные команды" width="160" data-key="0" data-gallery="f88464" /><img src="https://st.tlgrm.ru/5a5/2cc/5a52ccb61cfadab0396c1ffb057debb2.jpg" alt="Notice the new button in the input field, right next to the sticker button" width="160" data-key="1" data-gallery="f88464" /><img src="https://st.tlgrm.ru/52a/d9d/52ad9d6b9ff04cae86eea0c24a6a52fb.jpg" alt="Suggested commands for multiple bots" width="160" data-key="2" data-gallery="f88464" />
+            <p>Если в группе есть несколько ботов, вы можете дописать после команды имя бота, чтобы избежать коллизий в общих командах:</p>
+                <pre>/start@TriviaBot  /start@ApocalypseBot</pre>
+                <p>Это происходит автоматически, если вы выбираете команду из списка доступных.</p>
+                <h3 id="global-commands">Глобальные команды </h3>
+                <p>Чтобы пользователям было проще работать с ботами, мы просим всех   разработчиков реализовывать поддержку нескольких простых команд.   В интерфейсе приложений Telegram будут <strong>ярлыки</strong> (быстрые ссылки) для этих команд.</p>
+                <ul>
+                  <li><strong>/start</strong> — начинает общение с пользователем   (например, отправляет приветственное сообщение). В эту команду также   можно передавать дополнительные аргументы (см. <a href="https://tlgrm.ru/docs/bots#deep-linking">внешнее связывание</a>).</li>
+                  <li><strong>/help</strong> — отображает сообщение с помощью по командам.   Оно может представлять собой короткое сообщение о вашем боте и список   доступных команд.</li>
+                  <li><strong>/settings</strong> — (по возможности) возвращает список возможных настроек и команды для их изменения.</li>
+                </ul>
+                <p>При попытке начать общение с роботом, пользователь увидит кнопку <strong>СТАРТ</strong>. На странице профиля бота также будут доступны ссылки <strong>Помощь</strong> и <strong>Настройки</strong>.</p>
+                <img src="https://st.tlgrm.ru/01c/45f/01c45f9ff6bc9cb837c16402b44f3c16.jpg" alt="Пустая история переписки с ботом" width="160" data-key="0" data-gallery="6f3ccc" />
+            <h1 class="title">&nbsp;</h1>
+	
+     </div>
+	<div style="clear: both"></div>
+
+</div>
+
+<!-- content ends -->
+</div>
+</div>
+</div>
+<!-- footer begins -->
+<div id="footer">
+  <p>Copyright(типо защищено) &copy; 2020. 
+									  <h2>Приложение, которое выгружает то, что вы пишите боту в телеге и имеет свои функции)!</h2>
+<!-- footer ends -->
+
+</div>
+</div>
+</body>
+</html>

@@ -1,4 +1,4 @@
-"""tga URL Configuration
+"""projectsite URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/2.2/topics/http/urls/
@@ -15,18 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from django.http import HttpResponse
-from django.template import loader
-
-def show_phones(request):
-    template = loader.get_template('product_page.html')
-    context = {}
-    rendered_page = template.render(context, request)
-    return HttpResponse(rendered_page)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', show_phones),
 ]
-
-
